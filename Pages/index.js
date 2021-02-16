@@ -13,6 +13,7 @@ function Home() {
       </head>
       <Header />
       <Section1 />
+      <Section1 />
     </div>
   );
 }
