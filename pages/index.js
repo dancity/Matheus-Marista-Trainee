@@ -1,9 +1,11 @@
 import Header from "../Components/Header";
 import Section1 from "../Components/Section1";
 
+import { Container } from './styles';
+
 function Home() {
   return (
-    <div>
+    <Container>
       <head>
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
@@ -14,7 +16,7 @@ function Home() {
       <Header />
       <Section1 />
       <Section1 />
-    </div>
+    </Container>
   );
 }
 
